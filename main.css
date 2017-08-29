@@ -1,0 +1,225 @@
+    h1 {
+        color: #3661b2;
+        font-size: 1.9em;
+        font-family: "Calibri";
+        text-align: center;
+        line-height: 0.3;
+    }
+
+    h2 {
+        font-family: "Lato";
+        color: "Rust";
+        text-align-last: left;
+        font-size: 1em;
+        font-weight: 100;
+        position: relative;
+    }
+
+    h3 {
+        font-family: "Lato";
+        font-size: 1.5em;
+        font-weight: lighter;
+        text-align: center;
+    }
+
+    p {
+        font-family: "Helvetica";
+        font-size: 1em;
+    }
+
+    h6 {
+        font-size: 1.1em;
+        font-family: "Lato";
+        font-weight: 100;
+    }
+
+    article {
+        color: #441500;
+        font-size: 2em;
+        background: #ff9999;
+        padding: 10px;
+    }
+
+    h4 {
+        font-family: "Lato";
+        border-radius: 5px;
+        font-size: 1.5em;
+        color: rgb(0, 120, 175);
+        font-weight: 700;
+    }
+
+    line {
+        stroke: #8FD8D8;
+        stroke-width:3;
+    }
+
+    .p3 {
+        color: #000;
+        text-align: center;
+        font-size: 1.3em;
+        font-family: sans-serif;
+        background-color: #ff9999;
+        padding: 18px;
+        color: #111;
+    }
+
+    ul {
+        color: #000;
+        font-size: 130%;
+        font-family: monospace;
+    }
+
+    a:link {
+      color:#5F9EA0;
+      text-decoration:none;
+    }
+
+    img  {
+      max-width: 100%;
+      width: auto;
+      height: auto;
+      display: block;
+      margin-bottom: 30px;
+    }
+
+    .selected  {
+      color: #5F9EA0;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    a:active {
+      color: white;
+    }
+
+    link:active {
+      background-color: #333;
+    }
+
+    a:visited  {
+      color: #5F9EA0;
+    }
+
+    .active {
+        background-color: #333;
+    }
+
+    .topnav {
+        overflow: hidden;
+        background-color: #111;
+    }
+
+    .topnav a {
+        float: left;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 15px 8.4%;
+        text-decoration: none;
+        margin-left: 10px;
+        font-size: 1.2em;
+        min-width: 110px;
+        font-family: "PT Mono";
+        display: block;
+        float:left;
+    }
+
+    .topnav a:hover {
+        background-color: #777;
+        border-radius: 5px;
+    }
+
+    .topnav a.active {
+        color: blue;
+    }
+
+    .mainVideo {
+        height: 550px;
+        width: auto;
+        overflow: hidden;
+        max-width: 100%;
+    }
+
+    aside {
+      padding: 15px;
+    }
+
+    section {
+      background-color: #3661b2;
+    }
+
+    .goggles {
+      height: 400px;
+      width: auto;
+    }
+
+    .gloves {
+      height: 400px;
+      width: auto;
+    }
+
+    #current {
+      background-color: rgb(0, 54, 75);
+      border-radius: 40px;
+    }
+
+    .article {
+      color: black;
+      font-family: "Helvetica";
+      font-weight: 100;
+      max-width: 900px;
+      min-width: 2vw;
+      font-size: 0.6em;
+      background-color: #ffe5e5;
+      padding: 10px;
+      margin-right: 2px;
+      border-radius: 4px;
+    }
+
+    .pCenter {
+      text-align: center;
+      color: white;
+    }
+
+    track {
+      color: white;
+    }
+
+    .topOfPage {
+      text-align: center;
+      font-size: 1.2em;
+    }
+
+    .signOff {
+      float: left;
+      color: white;
+      margin-left: 5px;
+    }
+
+    footer {
+      background-color: rgb(0, 54, 75);
+      padding: 0.5px;
+    }
+
+    .validator {
+      float: center;
+      text-align: center;
+      margin-left: 5px;
+      font-size: 1.1em;
+    }
+
+    .litReviewParagraphs {
+      text-align: center;
+      margin: 0 auto;
+      max-width: 700px;
+    }
+
+    .litReviewHeading {
+      text-align: center;
+      margin: 0 auto;
+    }
+
+    .discLogCat {
+      text-decoration: underline;
+    }

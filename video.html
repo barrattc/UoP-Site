@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <title>Video</title>
+</head>
+
+<body>
+    <header class="topnav">
+        <a href="index.html">Home</a>
+        <a href="litreview.html">Lit Review</a>
+        <a href="discoverylog.html">Discovery Log</a>
+        <a href="video.html" id="current">Video</a>
+    </header>
+
+    <main>
+        <h1>My Video</h1>
+        <h4>The Sunny Walk Home</h4>
+        <p>The below video was taken on a very sunny day during my walk back to my halls after a day of studying at Uni.</p>
+        <p>Turn on the Captions for a description of the noises if you are unable to hear the surrounding sounds.</p>
+        <video class="mainVideo" controls>
+              <source src="Images/mainVid2.MOV" type="video/mp4">
+              <source src="Images/oggCompressed.ogg" type="video/ogg">
+              <source src="Images/mainVid.webm" type="video/webm">
+              <track kind="captions" src="captions.vtt" srclang="en" label="English"/>
+        <p>Sorry, your browser doesn't support video.</p>
+      </video>
+    </main>
+
+    <footer>
+      <p class="signOff">UP813654 | University Of Portsmouth</p>
+      <p class="topOfPage"><a href="#top">Back to top</a></p>
+      <a href="http://validator.w3.org/check?uri=referer" class="validator" target="blank">Validate Page Here</a>
+    </footer>
+
+</body>
+
+</html>
